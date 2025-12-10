@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #004d98; /* Azul oscuro FIFA */
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #f0b323; /* Dorado/Amarillo FIFA */
+    padding-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+th {
+    background-color: #0066cc; /* Azul medio */
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 12px 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* Estilo para filas pares (zebra stripes) */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e6f7ff; /* Resaltar al pasar el ratón */
+}
+
+/* Columna de año destacada */
+td:nth-child(1) {
+    font-weight: bold;
+    text-align: center;
+    background-color: #eaf2f8;
+}
+
+/* Columna de balón destacada */
+td:nth-child(2) {
+    font-style: italic;
+    font-weight: 600;
+    color: #cc0000; /* Rojo distintivo */
+}
+
+/* Estilo para la columna de tecnología (más amplia) */
+td:nth-child(4) {
+    width: 40%;
+    font-size: 0.95em;
+}
